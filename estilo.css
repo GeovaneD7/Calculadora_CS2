@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(142, 142, 142);
+}
+
+header {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+
+.grid_escolha {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+img {
+    width: 75px;
+    height: auto;
+    border: 1px solid #000;
+    background-color: rgba(194, 220, 255, 0.607);
+}
+
+.menu {
+    border-style: groove;
+    float: left;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+
+section#loadout {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+strong#LoadoutTitle {
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+.pistolaL {
+    margin-top: 10px;
+    float: left;
+}
+
+.pistolaL > * {
+    width: 75px;
+    height: 75px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px dotted #000;
+}
+
+.midTierL {
+    margin-top: 10px;
+    float: left;
+}
+
+.midTierL > * {
+    width: 75px;
+    height: 75px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px dotted #000;
+}
+
+.riflesL {
+    margin-top: 10px;
+    float: left;
+}
+
+.riflesL > * {
+    width: 75px;
+    height: 75px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px dotted #000;
+}
+
+.utilL {
+    margin-top: 10px;
+    float: left;
+}
+
+.utilL > * {
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px dotted #000;
+}
+
+
+section#left {
+    float: left;
+}
+
+.titulo {
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: dotted black;
+}

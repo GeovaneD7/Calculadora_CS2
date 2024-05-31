@@ -1,0 +1,49 @@
+{
+    "Utilitarias": [
+        {"nome": "Defuser", "valor": 400, "lado":"ct", "imagem":"UTIL_Defuser.webp"},
+        {"nome": "Colete", "valor":650 , "lado":"ct", "imagem":"UTIL_Kevlar.webp"},
+        {"nome": "Capacete", "valor":1000 , "lado":"ct", "imagem":"UTIL_KevlarHelmet.webp"},
+        {"nome": "Flash", "valor":200 , "lado":"ambos", "imagem":"UTIL_Flashbang.webp"},
+        {"nome": "Smoke", "valor":300 , "lado":"ambos", "imagem":"UTIL_SmokeGrenade.webp"},
+        {"nome": "Incendiaria", "valor":500 , "lado":"ct", "imagem":"UTIL_IncendGrenade.webp"},
+        {"nome": "Molotov", "valor":400 , "lado":"tr", "imagem":"UTIL_Molotov.webp"},
+        {"nome": "HE_Grenade", "valor":300 , "lado":"ambos", "imagem":"UTIL_Hegrenade.webp"}
+    ],
+    "Pistolas": [
+        {"nome": "Inicial", "valor":0 , "lado":"ambos", "imagem":null},
+        {"nome": "P250", "valor":300 , "lado":"ambos", "imagem":"WEAP_P250.webp"},
+        {"nome": "Dual_Beretta", "valor":300 , "lado":"", "imagem":"WEAP_Dual_Berettas.webp"},
+        {"nome": "CZ", "valor":500 , "lado":"ambos", "imagem":"WEAP_CZ75-Auto.webp"},
+        {"nome": "Five_Seven", "valor":500 , "lado":"ct", "imagem":"WEAP_Five-SeveN.webp"},
+        {"nome": "R8_Revolver", "valor":600 , "lado":"ambos", "imagem":"WEAP_R8_Revolver.webp"},
+        {"nome": "Desert_Eagle", "valor":700 , "lado":"tr", "imagem":"WEAP_Desert_Eagle.webp"},
+        {"nome": "Tec_9", "valor":500 , "lado":"tr", "imagem":"WEAP_Tec_9.webp"}
+    ],
+    "Mid": [
+        {"nome": "Mag-7", "valor":1300 , "lado": "ct", "imagem": "WEAP_MAG_7.webp"},
+        {"nome": "Sawed_Off", "valor":1100 , "lado": "tr", "imagem": "WEAP_Sawed_Off.webp"},
+        {"nome": "Nova", "valor":1050 , "lado": "ambos", "imagem": "WEAP_Nova.webp"},
+        {"nome": "XM1014", "valor":2000 , "lado": "ambos", "imagem": "WEAP_XM1014.webp"},
+        {"nome": "PP_Bizon", "valor":1400 , "lado": "ambos", "imagem": "WEAP_PP_Bizon.webp"},
+        {"nome": "MP7", "valor":1500 , "lado": "ambos", "imagem": "WEAP_MP7.webp"},
+        {"nome": "MP5-SD", "valor":1500 , "lado": "ambos", "imagem": "WEAP_MP5_SD.webp"},
+        {"nome": "MP9", "valor":1250 , "lado": "ct", "imagem": "WEAP_MP9.webp"},
+        {"nome": "P90", "valor":2350 , "lado": "ambos", "imagem": "WEAP_P90.webp"},
+        {"nome": "UMP-45", "valor":1200 , "lado": "ambos", "imagem": "WEAP_UMP_45.webp"},
+        {"nome": "M249", "valor":5200 , "lado": "ambos", "imagem": "WEAP_M249.webp"},
+        {"nome": "Negev", "valor":1700 , "lado": "ambos", "imagem": "WEAP_Negev.webp"},
+        {"nome": "Mac-10", "valor":1050 , "lado":"tr", "imagem":"WEAP_MAC_10.webp"}
+    ],
+    "Rifles": [
+        {"nome": "AK-47", "valor":2700 , "lado": "tr", "imagem": "WEAP_AK_47.webp"},
+        {"nome": "AUG", "valor":3300 , "lado": "ct", "imagem": "WEAP_AUG.webp"},
+        {"nome": "FAMAS", "valor":2050 , "lado": "ct", "imagem": "WEAP_FAMAS.webp"},
+        {"nome": "Galil-AR", "valor":1800 , "lado": "tr", "imagem": "WEAP_Galil_AR.webp"},
+        {"nome": "M4A4", "valor":3000 , "lado": "ct", "imagem": "WEAP_M4A4.webp"},
+        {"nome": "M4A1-S", "valor":2900 , "lado": "ct", "imagem": "WEAP_M4A1_S.webp"},
+        {"nome": "SG_553", "valor":3000 , "lado": "tr", "imagem": "WEAP_SG_553.webp"},
+        {"nome": "AWP", "valor":4750 , "lado": "ambos", "imagem": "WEAP_AWP.webp"},
+        {"nome": "G3SG1", "valor":5000 , "lado": "tr", "imagem": "WEAP_G3SG1.webp"},
+        {"nome": "SCAR-20", "valor":5000 , "lado": "ct", "imagem": "WEAP_SCAR_20.webp"}
+    ]
+  }
