@@ -1,2 +1,2 @@
-mensagem = "Você é incrivel!";
-// alert("mensagem");
+import React from 'react';
+

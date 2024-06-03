@@ -116,3 +116,27 @@ section#left {
     padding: 10px;
     border: dotted black;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px, solid, black;
+}
+
+div#resultado {
+    max-height: 100vh;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 7px;
+    background: black;
+    margin-bottom: 25px;
+}
