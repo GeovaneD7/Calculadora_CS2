@@ -14,11 +14,29 @@ header {
     display: flex;
 }
 
-.grid_escolha {
+#gridPistol {
     width: fit-content;
     height: fit-content;
     border: 1px solid black;
-    margin: 10px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+}
+
+#gridMid {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+}
+
+#gridRifle {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    margin: 5px;
     padding: 10px;
     float: left;
 }
@@ -54,7 +72,7 @@ strong#LoadoutTitle {
 }
 
 .pistolaL {
-    margin-top: 10px;
+    margin: 5px;
     float: left;
 }
 
@@ -67,7 +85,7 @@ strong#LoadoutTitle {
 }
 
 .midTierL {
-    margin-top: 10px;
+    margin: 5px;
     float: left;
 }
 
@@ -80,7 +98,7 @@ strong#LoadoutTitle {
 }
 
 .riflesL {
-    margin-top: 10px;
+    margin: 5px;
     float: left;
 }
 
@@ -93,7 +111,7 @@ strong#LoadoutTitle {
 }
 
 .utilL {
-    margin-top: 10px;
+    margin: 5px;
     float: left;
 }
 
@@ -115,6 +133,10 @@ section#left {
     margin: 10px;
     padding: 10px;
     border: dotted black;
+}
+
+.onhover {
+    margin:5px yellow;
 }
 
 table {

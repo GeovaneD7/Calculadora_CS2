@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
     <script src="app.JS"></script>
 </head>
 <body>
@@ -13,7 +12,7 @@
         <h1>Calculadora de Loadout do CS2</h1>
     </header>
     <main class="container">
-        <section class="grid_escolha">
+        <section id="gridPistol">
             <div><strong>pistolas</strong></div>
             <div><img id="p250" src="assets/WEAP_P250.webp" alt="P250"></div>
             <div><img id="dual" src="assets/WEAP_Dual_Berettas.webp" alt="Dual Beretta"></div>
@@ -22,7 +21,7 @@
             <div><img id="r8" src="assets/WEAP_R8_Revolver.webp" alt="R8 Revolver"></div>
             <div><img id="eagle" src="assets/WEAP_Desert_Eagle.webp" alt="Desert Eagle"></div>
         </section>
-        <section class="grid_escolha">
+        <section id="gridMid">
             <div><strong>Mid-Tier</strong></div>
             <section>
                 <div><img id="mag7" src="assets/WEAP_MAG_7.webp" alt="Mag-7"></div>
@@ -31,8 +30,6 @@
                 <div><img id="bizon" src="assets/WEAP_PP_Bizon.webp" alt="PP-Bizon"></div>
                 <div><img id="mp7" src="assets/WEAP_MP7.webp" alt="MP7"></div>
                 <div><img id="mp5" src="assets/WEAP_MP5_SD.webp" alt="MP5-SD"></div>
-            </section>
-            <section id="left">
                 <div><img id="mp9" src="assets/WEAP_MP9.webp" alt="MP9"></div>
                 <div><img id="p90" src="assets/WEAP_P90.webp" alt="P90"></div>
                 <div><img id="ump" src="assets/WEAP_UMP_45.webp" alt="UMP45"></div>
@@ -40,7 +37,7 @@
                 <div><img id="negev" src="assets/WEAP_Negev.webp" alt="Negev"></div>
             </section>
         </section>
-        <section class="grid_escolha">
+        <section id="gridRifle">
             <div><strong>Rifles</strong></div>
             <div><img id="famas" src="assets/WEAP_FAMAS.webp" alt="Famas"></div>
             <div><img id="m4a4" src="assets/WEAP_M4A4.webp" alt="M4A4"></div>
@@ -101,9 +98,9 @@
         </section>
     </main>
 <br><br><hr><br><br>
+<!--
     <div id="resultado">
         <table border="1">
-            <!-- Row 1 -->
             <tr>
                 <th><img src="assets/CS2_Logo.png" alt="CS_Logo"></th>
                 <th>Kevlar Only</th>
@@ -112,7 +109,6 @@
                 <th>Helmet + Utilities</th>
                 <th>Average</th>
             </tr>
-            <!-- Row 2 -->
             <tr id="ecoLow">
                 <th>Eco Low</th>
                 <td>2,2</td>
@@ -121,7 +117,6 @@
                 <td>2,5</td>
                 <td>2,6</td>
             </tr>
-            <!-- Row 3 -->
             <tr id="ecoHigh">
                 <th>Eco High</th>
                 <td>3,2</td>
@@ -130,7 +125,6 @@
                 <td>3,5</td>
                 <td>3,6</td>
             </tr>
-            <!-- Row 4 -->
             <tr id="midLow">
                 <th>Mid Low</th>
                 <td>4,2</td>
@@ -139,7 +133,6 @@
                 <td>4,5</td>
                 <td>4,6</td>
             </tr>
-            <!-- Row 5 -->
             <tr id="midHigh">
                 <th>Mid High</th>
                 <td>5,2</td>
@@ -148,7 +141,6 @@
                 <td>5,5</td>
                 <td>5,6</td>
             </tr>
-            <!-- Row 6 -->
             <tr id="fullLow">
                 <th>Full Low</th>
                 <td>6,2</td>
@@ -157,7 +149,6 @@
                 <td>6,5</td>
                 <td>6,6</td>
             </tr>
-            <!-- Row 7 -->
             <tr id="fullHigh">
                 <th>Full High</th>
                 <td>7,2</td>
@@ -166,7 +157,6 @@
                 <td>7,5</td>
                 <td>7,6</td>
             </tr>
-            <!-- Row 8 -->
             <tr id="awp">
                 <th>AWP</th>
                 <td>8,2</td>
@@ -177,6 +167,6 @@
             </tr>
         </table>
     </div>
-
+-->
 </body>
 </html>
